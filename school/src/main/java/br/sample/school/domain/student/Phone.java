@@ -1,4 +1,4 @@
-package br.sample.school.student;
+package br.sample.school.domain.student;
 
 public class Phone {
 	

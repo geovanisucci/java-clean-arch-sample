@@ -1,7 +1,8 @@
-package br.sample.school.indication;
+package br.sample.school.domain.indication;
 
 import java.time.LocalDateTime;
-import br.sample.school.student.*;
+
+import br.sample.school.domain.student.*;
 
 public class Indication {
 	
