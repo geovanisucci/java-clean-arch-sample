@@ -9,5 +9,13 @@ public class Phone {
 		this.code = code;
 		this.number = number;
 	}
+	
+	public String getCode() {
+		return code;
+	}
+	
+	public String getNumber() {
+		return number;
+	}
 
 }
