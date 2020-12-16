@@ -4,11 +4,11 @@ public class StudentBuilder {
 	
 	private Student student;
 	
-	public StudentBuilder createWithNameRegistrationEmail(String name, String registrationNumber, String email) {
+	public Student createWithNameRegistrationEmail(String name, String registrationNumber, String email) {
 		
 		this.student = new Student(new Registration(registrationNumber), name, new Email(email));
 		
-		return this;
+		return this.student;
 	}
 	
 	public StudentBuilder addPhoneNumber(String code, String number) {
