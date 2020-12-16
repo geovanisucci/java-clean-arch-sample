@@ -9,6 +9,7 @@ public class Student {
 	private String name;
 	private Email email;
 	private List<Phone> phones = new ArrayList<Phone>();
+	private String password;
 	
 	public Student(Registration registrationNumber, String name, Email email) {		
 		this.registrationNumber = registrationNumber;
