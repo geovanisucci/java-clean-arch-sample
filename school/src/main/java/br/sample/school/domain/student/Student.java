@@ -15,8 +15,29 @@ public class Student {
 		this.name = name;
 		this.email = email;
 	}
+	
+	
+
+	public Student() {
+	}
+
+
 
 	public void addPhone(String code, String number) {
 		this.phones.add(new Phone(code, number));
+	}
+	
+	public String getRegistrationNumber() {
+		return registrationNumber.getNumber();
+	}
+	public String getName() {
+		return name;
+	}
+	public String getEmail() {
+		return email.getAddress();
+	}
+	
+	public List<Phone> getPhones() {
+		return phones;
 	}
 }
